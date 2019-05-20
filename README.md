@@ -1,2 +1,0 @@
-# jonathanhand.github.io
-#
