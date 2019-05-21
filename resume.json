@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Jonathan Hand",
+    "label": "Programmer",
+    "picture": "",
+    "email": "hand.jonathan.13@gmail.com",
+    "phone": "(661) 492-3858",
+    "website": "https://jonathanhand.github.io/",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    }
+  },
+  "education": [
+    {
+      "institution": "California State University, Long Beach",
+      "area": "Management Information Systems",
+      "studyType": "Bachelor",
+      "endDate": "2019-05-24",
+      "gpa": "3.61",
+      "courses": [
+        "Internet App Development",
+        "Python Programming",
+        "Mobile App Development",
+        "Advanced Database Management",
+        "Systems Analysis & Design"
+      ]
+    },
+  {
+    "institution": "Antelope Valley College",
+    "area": "Business Administration",
+    "studyType": "Associate",
+    "endDate": "2017-06-01",
+    "courses": [
+      "Java Development",
+      "Computer COncepts & Applications",
+      "Business Communications"
+    ]
+  }
+  ],
+
+  "skills": [
+    {
+      "name": "Programming/Languages",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Python",
+        "MySQL",
+        "PL/SQL",
+        "Git"
+      ]
+    },
+    {
+      "name": "Database Management",
+      "level": "Master",
+      "keywords": [
+        "Oracle",
+        "Firebase",
+        "Access"
+      ]
+    },
+    {
+      "name": "System Design Software",
+      "level": "Master",
+      "keywords": [
+        "Visio",
+        "Justinmind",
+        "Excel"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Target",
+      "position": "Executive Team Leader",
+      "startDate": "2018-06-01",
+      "endDate": "2019-06-01",
+      "highlights": [
+        "Manage the performance and career development of team members through coaching and mentoring.",
+        "Collaborate daily with Team Leaders from each department to ensure efficient operation of the store."
+      ]
+    },
+    {
+      "company": "Rancho Vista Golf Club",
+      "position": "Director of Instruction",
+      "startDate": "2016-08-01",
+      "endDate": "2018-07-31",
+      "highlights": [
+        "Maintained and troubleshooted POS system setup, user interfaces, and customer databases.",
+        "Increased customer interactions by designing website, email, and in-store promotions."
+      ]
+    }
+  ]
+}

@@ -3,11 +3,11 @@ button {
 }
 
 .navbar {
-    background-color: black;
+    background-color: yellow;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -16,5 +16,20 @@ a:hover {
 }
 
 i {
-    color:white;
+    color:black;
+}
+
+.bodyContent {
+
+}
+
+.footer {
+    background-color: black;
+}
+
+.nameHeader {
+
+}
+body {
+    background: rgb(168, 168, 168);
 }
