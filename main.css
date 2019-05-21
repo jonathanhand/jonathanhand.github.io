@@ -1,0 +1,20 @@
+button {
+    background-color: null;
+}
+
+.navbar {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+i {
+    color:white;
+}
