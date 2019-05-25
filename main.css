@@ -227,3 +227,7 @@ h4 span:first-child {
 		display: none;
 	}
 }
+a {
+    width: 30px;
+    height: 30px;
+}
