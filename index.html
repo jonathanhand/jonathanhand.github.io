@@ -1,251 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jonathan Hand</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-       
-        <style type="text/css">
-        @import url(
-        https://fonts.googleapis.com/css?family=Lato:400,700
-    );
-        </style>
-    </head>
-    <body>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jonathan Hand</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
 
-            <div class="container-fluid, navbar" id="navbar">
-                <div class='header-icons'>
-                    <a href="mailto:hand.jonathan.13@gmail.com"><i class="far fa-envelope" id="Email"></i></a>
-                    <a href="https://www.linkedin.com/in/hand-jonathan/"><i class="fab fa-linkedin"id="Linkedin"></i></a>
-                    <a href="https://github.com/jonathanhand/jonathanhand.github.io"><i class="fab fa-github"id="Github"></i></a>
-               </div>
-                    <!-- <a href="index.html" id="Home">Home</a> -->
-                <!-- <a href="projects.html" id="Projects">Projects</a> -->
-                <h1 class="text-center" id="nameHeader">Jonathan Hand</h1>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
-                <div>
-          
-                <button class="btn btn-dark" id="resumeBtn">Resume</button>
-                <button class="btn btn-dark" id="projectBtn">Projects</button> 
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Lato:400,700
+);
+	</style>
+</head>
 
-            </div>
-            </div>
-            
-				
+<body>
 
-	
-            <div class="bodyContent" id ="projContent">
-                    <div class="projectHeader"><h>Projects</h></div>
-                        <div class="card-columns">
-                                <div class="card">
-                                  <img class="card-img-top" src="LA-brewers.PNG" alt="Card image cap">
-                                  <div class="card-body">
-                                    <h5 class="card-title">L.A. Brewers</h5>
-                                    <p class="card-text">Ionic mobile app for L.A. Brewers Guild which displays nearby Craft Breweries.</p>
-                                  </div>
-                                </div>
-                                
-                                <div class="card">
-                                        <img class="card-img-top" src="contactList.PNG" alt="Card image cap">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Contact Manager</h5>
-                                          <p class="card-text">Contact Manager website with support for multiple users through google authentication and firebase.</p>
-                                        </div>
-                                      </div>
-                                      <div class="card">
-                                            <img class="card-img-top" src="studentEnroll.PNG" alt="Card image cap">
-                                            <div class="card-body">
-                                              <h5 class="card-title">Student Enroll</h5>
-                                              <p class="card-text">Oracle PL/SQL Package that calls procedures to validate student enrollment</p>
-                                            </div>
-                                          </div>
-                              </div>
+	<div class="container-fluid, navbar" id="navbar">
+		<div class='header-icons'>
+			<a href="mailto:hand.jonathan.13@gmail.com"><i class="far fa-envelope fa-2x" id="Email"></i></a>
+			<a href="https://www.linkedin.com/in/hand-jonathan/"><i class="fab fa-linkedin fa-2x" id="Linkedin"></i></a>
+			<a href="https://github.com/jonathanhand/jonathanhand.github.io"><i class="fab fa-github fa-2x" id="Github"></i></a>
+		</div>
+		<!-- <a href="index.html" id="Home">Home</a> -->
+		<!-- <a href="projects.html" id="Projects">Projects</a> -->
+		<h1 class="text-center nameHeader" id="nameHeader">Jonathan Hand</h1>
 
-                        
-            </div>
+		<div>
 
-            
-<div id="resumeContent" style="display:none">
-    	<a class="text-center" href="resume.pdf">PDF Version</a>
+			<button type="button" class="btn btn-light" id="projectBtn">Projects</button>
+			<button type="button" class="btn btn-light" id="resumeBtn">Resume</button>
 
-	<div id="content" class="container">
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">hand.jonathan.13@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">(661) 492-3858</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="https://jonathanhand.github.io/">https://jonathanhand.github.io/</a>
+		</div>
+	</div>
+
+
+
+
+	<div class="bodyContent" id="projContent">
+		<div class="projectHeader">
+			<h>Projects</h>
+		</div>
+		<div class="card-columns">
+			<div class="card" data-toggle="modal" data-target="#laBrewersModal">
+				<img class="card-img-top" src="LA-brewers.PNG" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">L.A. Brewers</h5>
+					<p class="card-text">Ionic mobile app for L.A. Brewers Guild which displays nearby Craft Breweries.</p>
 				</div>
 			</div>
+
+			<div class="card">
+				<img class="card-img-top" src="contactList.PNG" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Contact Manager</h5>
+					<p class="card-text">Contact Manager website with support for multiple users through google authentication and
+						firebase.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="studentEnroll.PNG" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Student Enroll</h5>
+					<p class="card-text">Oracle PL/SQL Package that calls procedures to validate student enrollment</p>
+				</div>
 			</div>
 		</div>
-	</section>
 
-	<section id="education" class="row">
-			<aside class="col-sm-3">
-				<h3>Education</h3>
-			</aside>
-			<div class="col-sm-9">
-				<div class="row">
-				<div class="col-sm-12">
-					<h4 class="strike-through">
-						<span>California State University, Long Beach</span>
-						<span class="date">
-							May 2019
-						</span>
-					</h4>
-					<div class="area">
-						Management Information Systems
+
+	</div>
+
+
+	<div id="resumeContent" style="display:none">
+		<div class="projectHeader">
+			<h>Resume</h>
+		</div>
+
+		<a class="text-center" href="resume.pdf">PDF Version</a>
+
+		<div id="content" class="container">
+
+			<section id="contact" class="row">
+				<aside class="col-sm-3">
+					<h3>Contact</h3>
+				</aside>
+				<div class="col-sm-9">
+					<div class="row">
+						<div class="col-sm-6">
+							<strong>Email</strong>
+							<div class="email">hand.jonathan.13@gmail.com</div>
+						</div>
+						<div class="col-sm-6">
+							<strong>Phone</strong>
+							<div class="phone">(661) 492-3858</div>
+						</div>
+						<div class="col-sm-6">
+							<strong>Website</strong>
+							<div class="website">
+								<a href="https://jonathanhand.github.io/">https://jonathanhand.github.io/</a>
+							</div>
+						</div>
 					</div>
-					<div class="studyType">
-						Bachelor
-					</div>
-					<h4>Courses</h4>
-					<ul class="courses">
-						<li>Internet App Development</li>
-						<li>Python Programming</li>
-						<li>Mobile App Development</li>
-						<li>Advanced Database Management</li>
-						<li>Systems Analysis &amp; Design</li>
-					</ul>
 				</div>
-				<div class="col-sm-12">
-					<h4 class="strike-through">
-						<span>Antelope Valley College</span>
-						<span class="date">
-							June 2017
-						</span>
-					</h4>
-					<div class="area">
-						Business Administration
+			</section>
+
+			<section id="education" class="row">
+				<aside class="col-sm-3">
+					<h3>Education</h3>
+				</aside>
+				<div class="col-sm-9">
+					<div class="row">
+						<div class="col-sm-12">
+							<h4 class="strike-through">
+								<span>California State University, Long Beach</span>
+								<span class="date">
+									May 2019
+								</span>
+							</h4>
+							<div class="area">
+								Management Information Systems
+							</div>
+							<div class="studyType">
+								Bachelor
+							</div>
+							<h4>Courses</h4>
+							<ul class="courses">
+								<li>Internet App Development</li>
+								<li>Python Programming</li>
+								<li>Mobile App Development</li>
+								<li>Advanced Database Management</li>
+								<li>Systems Analysis &amp; Design</li>
+							</ul>
+						</div>
+						<div class="col-sm-12">
+							<h4 class="strike-through">
+								<span>Antelope Valley College</span>
+								<span class="date">
+									June 2017
+								</span>
+							</h4>
+							<div class="area">
+								Business Administration
+							</div>
+							<div class="studyType">
+								Associate
+							</div>
+							<h4>Courses</h4>
+							<ul class="courses">
+								<li>Java Development</li>
+								<li>Computer Concepts &amp; Applications</li>
+								<li>Business Communications</li>
+							</ul>
+						</div>
 					</div>
-					<div class="studyType">
-						Associate
-					</div>
-					<h4>Courses</h4>
-					<ul class="courses">
-						<li>Java Development</li>
-						<li>Computer Concepts &amp; Applications</li>
-						<li>Business Communications</li>
-					</ul>
 				</div>
-				</div>
-			</div>
-		</section>
-		<section id="skills" class="row">
+			</section>
+			<section id="skills" class="row">
 				<aside class="col-sm-3">
 					<h3>Skills</h3>
 				</aside>
 				<div class="col-sm-9">
 					<div class="row">
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>Programming/Languages</h4>
+						<div class="col-sm-6">
+							<div class="name">
+								<h4>Programming/Languages</h4>
+							</div>
+							<ul class="keywords">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+								<li>Python</li>
+								<li>MySQL</li>
+								<li>PL/SQL</li>
+								<li>Git</li>
+							</ul>
 						</div>
-						<ul class="keywords">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Javascript</li>
-							<li>Python</li>
-							<li>MySQL</li>
-							<li>PL/SQL</li>
-							<li>Git</li>
-						</ul>
-					</div>
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>Database Management</h4>
+						<div class="col-sm-6">
+							<div class="name">
+								<h4>Database Management</h4>
+							</div>
+							<ul class="keywords">
+								<li>Oracle</li>
+								<li>Firebase</li>
+								<li>Access</li>
+							</ul>
 						</div>
-						<ul class="keywords">
-							<li>Oracle</li>
-							<li>Firebase</li>
-							<li>Access</li>
-						</ul>
-					</div>
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>System Design Software</h4>
+						<div class="col-sm-6">
+							<div class="name">
+								<h4>System Design Software</h4>
+							</div>
+							<ul class="keywords">
+								<li>Visio</li>
+								<li>Justinmind</li>
+								<li>Excel</li>
+							</ul>
 						</div>
-						<ul class="keywords">
-							<li>Visio</li>
-							<li>Justinmind</li>
-							<li>Excel</li>
-						</ul>
-					</div>
 					</div>
 				</div>
 			</section>
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Target</span>
-					<span class="date">
-						June 2018 — Present
-					</span>
-				</h4>
-				<div class="position">
-					Executive Team Leader
+			<section id="work" class="row">
+				<aside class="col-sm-3">
+					<h3>Work</h3>
+				</aside>
+				<div class="col-sm-9">
+					<div class="row">
+						<div class="col-sm-12">
+							<h4 class="strike-through">
+								<span>Target</span>
+								<span class="date">
+									June 2018 — Present
+								</span>
+							</h4>
+							<div class="position">
+								Executive Team Leader
+							</div>
+							<h4>Highlights</h4>
+							<ul class="highlights">
+								<li class="bullet">Manage the performance and career development of team members through coaching and
+									mentoring.</li>
+								<li class="bullet">Collaborate daily with Team Leaders from each department to ensure efficient
+									operation of the store.</li>
+							</ul>
+						</div>
+						<div class="col-sm-12">
+							<h4 class="strike-through">
+								<span>Rancho Vista Golf Club</span>
+								<span class="date">
+									August 2016 — May 2018
+								</span>
+							</h4>
+							<div class="position">
+								Director of Instruction
+							</div>
+							<h4>Highlights</h4>
+							<ul class="highlights">
+								<li class="bullet">Maintained and troubleshooted POS system setup, user interfaces, and customer
+									databases.</li>
+								<li class="bullet">Increased customer interactions by designing website, email, and in-store promotions.
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Manage the performance and career development of team members through coaching and mentoring.</li>
-					<li class="bullet">Collaborate daily with Team Leaders from each department to ensure efficient operation of the store.</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Rancho Vista Golf Club</span>
-					<span class="date">
-						August 2016 — May 2018
-					</span>
-				</h4>
-				<div class="position">
-					Director of Instruction
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Maintained and troubleshooted POS system setup, user interfaces, and customer databases.</li>
-					<li class="bullet">Increased customer interactions by designing website, email, and in-store promotions.</li>
-				</ul>
-			</div>
-			</div>
+			</section>
+
 		</div>
-	</section>
+	</div>
 
+<!-- Modal -->
+<div class="modal fade" id="laBrewersModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="laBrewersModalLabel">L.A. Brewers</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<img class="card-img-top" src="LA-brewers.PNG" alt="Card image cap">
+				<ul>
+				<li>Utilized Google Maps API to display local breweries near the user’s location</li>
+				<li>Incorporated modals and page navigation to create a seamless user interface</li>
+				<li>Developed a Firebase Realtime Database to get & post app/user data</li>
+				</ul>
+      </div>
+      <div class="modal-footer">
+				<a href="https://github.com/jonathanhand/LA-Brewers"><i class="fab fa-github fa-2x i-black" id="Github"></i></a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
+  </div>
 </div>
-            <div class="footer" id="footer"></div>
+
+	<div class="footer" id="footer"></div>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="main.js" async defer></script>
-    </body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<script src="main.js" async defer></script>
+</body>
+
 </html>
