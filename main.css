@@ -29,6 +29,7 @@ i {
 
 body {
 	background-color: white;
+	overflow: auto;
 }
 
 .homeLink {
@@ -289,4 +290,13 @@ margin-top: 2px;
 }
 .i-black {
 	color: black;
+}
+
+.p4p {
+	max-height: 400px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 }
