@@ -59,7 +59,7 @@
 			</div>
 
 			<div class="card">
-				<img class="card-img-top" src="contactList.PNG" alt="Card image cap">
+				<img class="card-img-top" data-toggle="modal" data-target="#contactManagerModal" src="contactList.PNG" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title">Contact Manager</h5>
 					<p class="card-text">Contact Manager website with support for multiple users through google authentication and
@@ -71,6 +71,14 @@
 				<div class="card-body">
 					<h5 class="card-title">Student Enroll</h5>
 					<p class="card-text">Oracle PL/SQL Package that calls procedures to validate student enrollment</p>
+				</div>
+			</div>
+
+		<div class="card">
+				<img class="card-img-top" src="p4p.PNG" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Park 4 Park</h5>
+					<p class="card-text">Parking app which connects students allowing them to buy and sell parking spaces on campus</p>
 				</div>
 			</div>
 		</div>
@@ -280,6 +288,31 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="contactManagerModal" tabindex="-1" role="dialog" aria-labelledby="contactManagerModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="contactManagerModalLabel">Contact Manager</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img class="card-img-top" src="contactList.PNG" alt="Card image cap">
+					<ul>
+					<li>Utilizes Firebase realtime database to create, update, and delete contacts</li>
+					<li>Creates unique contact lists through google login service</li>
+					<li>Uses regular expressions to validate form info to ensure data integrity</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<a href="https://github.com/jonathanhand/contact-mgmt"><i class="fab fa-github fa-2x i-black" id="Github"></i></a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="footer" id="footer"></div>
 
